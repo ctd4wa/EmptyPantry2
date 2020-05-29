@@ -17,7 +17,7 @@ const ProfileAbout = ({ profile: {
           <div className="line"></div>
                 </Fragment>
             )}
-          <h2 className="text-primary">Skill Set</h2>
+          <h2 className="text-primary">Favorite Foods</h2>
           <div className="favoriteFoods">
             {favoriteFoods.map((food, index) => (
                 <div key={index} className='p-1'>

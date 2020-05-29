@@ -3,9 +3,7 @@ import PropTypes from 'prop-types'
 
 const ProfileTop = ({ profile: { 
     cookingExperience,
-    company,
     location,
-    website,
     social,
     user: { name, avatar }
 }}) => {
